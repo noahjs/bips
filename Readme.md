@@ -71,6 +71,42 @@ bips.createInvoice(price, currency, opt_from, opt_notes, function(err, res) { ..
 bips.getBalance(function(err, res) { ... });
 ```
 
+### Set Invoice Key ###
+```js
+// Change your Invoice key
+bips.setInvoiceKey(key);
+```
+
+### Set SendTo Key ###
+```js
+// Change your SendTo key
+bips.setSendToKey(key);
+```
+
+### Set GetBalance Key ###
+```js
+// Change your GetBalance key
+bips.setGetBalanceKey(key);
+```
+
+### Get Invoice Key ###
+```js
+// Retrieve your Invoice key
+bips.getInvoiceKey();
+```
+
+### Get SendTo Key ###
+```js
+// Retrieve your SendTo key
+bips.getSendToKey();
+```
+
+### Get GetBalance Key ###
+```js
+// Retrieve your GetBalance key
+bips.getGetBalanceKey();
+```
+
 ## License 
 
 (The MIT License)
