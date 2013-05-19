@@ -1,0 +1,20 @@
+{ "name": "bips"
+, "description": "BIPS API library (Bitcoin Internet Payment System)"
+, "author" : "shripadk"
+, "maintainers":
+  [ { "name": "Shripad K"
+    , "email": "assortmentofsorts@gmail.com"
+    }
+  ]
+, "version": "0.1.0"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/shripadk/node-bips.git"
+  }
+, "keywords" : ["bips", "bitcoin", ""]
+, "bugs" : { "email" : "assortmentofsorts@gmail.com" }
+, "directories" : { "lib": "./lib" }
+, "dependencies": {
+    "request": "2.x"
+  }
+}
