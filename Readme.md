@@ -63,7 +63,7 @@ bips.createInvoice(price, currency, opt_item, opt_custom, function(err, res) { .
 ```js
 // Send bitcoins to an address (bitcoin address/email/mobile)
 // opt_from and opt_notes are optional POST fields
-bips.createInvoice(price, currency, opt_from, opt_notes, function(err, res) { ... });
+bips.sendTo(price, currency, opt_from, opt_notes, function(err, res) { ... });
 ```
 
 ### Get Balance ###
