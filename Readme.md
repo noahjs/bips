@@ -10,6 +10,7 @@ BIPS makes it easy to get started accepting or sending Bitcoins today.
 
 ```js
 var bips = require('bips').Bips('<your-password-here>', {
+  api_domain: 'bips.me', // Optional. You can use domain closest to your location when performing API requests (https://bips.me/docs/api/locations).
   keys: {
     'Invoice'   : '<your-invoice-key-here>',
     'SendTo'    : '<your-sendto-key-here>',
