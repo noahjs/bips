@@ -9,7 +9,7 @@
 , "version": "0.5.0"
 , "repository" :
   { "type" : "git"
-  , "url" : "http://github.com/shripadk/node-bips.git"
+  , "url" : "git://github.com/shripadk/bips.git"
   }
 , "keywords" : ["bips", "bitcoin", ""]
 , "bugs" : { "email" : "assortmentofsorts@gmail.com" }
